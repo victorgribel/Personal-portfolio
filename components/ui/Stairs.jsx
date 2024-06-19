@@ -20,7 +20,7 @@ const reverseIndex = (index) => {
 const Stairs = () => {
     return (
         <>
-            {[...Array(6)].map((_, index) => {
+            {[...Array(1)].map((_, index) => {
                 return (
                     <motion.div
                         key={index}
@@ -34,7 +34,7 @@ const Stairs = () => {
                             delay: reverseIndex(index) * 0.1,
 
                         }}
-                        className="h-full w-full bg-white relative"
+                        className="h-full w-full bg-black relative"
                     />
                 );
             })}
