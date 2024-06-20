@@ -22,7 +22,7 @@ const about = {
     {
       fieldName: "Linkedin",
       fieldValue: "",
-    }
+    },
     {
       fieldName: "GitHub",
       fieldValue: "",

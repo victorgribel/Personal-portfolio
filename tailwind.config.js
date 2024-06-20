@@ -30,6 +30,17 @@ module.exports = {
           hover: "#00e187",
         },
       },
+      backgroundImage: {
+
+        'gradient': 'url("/assets/bg-dark.webp")',
+        'cube': 'url("/assets/cube.webp")',
+      },
+      backgroundSize: {
+        'cube': '35px',
+      },
+      backgroundPosition: {
+        'cube': 'center',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -47,4 +58,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

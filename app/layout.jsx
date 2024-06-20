@@ -18,11 +18,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
-        <Header/>
-        <StairTransition/>
-        <PageTransition>
-          {children}
-        </PageTransition>
+        <div className="bg-gradient bg-contain bg-repeat bg-bottom max-h-dvh">
+          <div className="w-full bg-primary/100 bg-cube h-screen  from-primary/30 via-black/30 to-black/10">
+          <Header/>
+          <StairTransition/>
+          <PageTransition>
+            {children}
+          </PageTransition>
+          </div>
+        </div>
+        
         
       </body>
     </html>
