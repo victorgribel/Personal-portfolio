@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jetbrainsMono.variable}>
         <div className="bg-gradient bg-contain bg-repeat bg-bottom max-h-dvh">
-          <div className="w-full bg-primary/100 bg-cube h-screen  from-primary/30 via-black/30 to-black/10">
+          <div className="w-full bg-primary/30 bg-cube h-screen  from-primary/10 via-black/30 to-black/10">
           <Header/>
           <StairTransition/>
           <PageTransition>

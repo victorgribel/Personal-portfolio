@@ -9,19 +9,19 @@ const links = [
         path: "/",
     },
     {
-        name: "services",
+        name: "Serviços",
         path: "/services",
     },
     {
-        name: "resume",
+        name: "Resumo",
         path: "/resume",
     },
     {
-        name: "work",
-        path: "/work",
+        name: "Projetos",
+        path: "/projects",
     },
     {
-        name: "contact",
+        name: "Contato",
         path: "/contact",
     },
 ]
