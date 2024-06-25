@@ -32,7 +32,7 @@ module.exports = {
       },
       backgroundImage: {
 
-        'gradient': 'url("/assets/bg-dark.webp")',
+        'gradient': 'url("/assets/bg-dark-2.jpg")',
         'cube': 'url("/assets/cube.webp")',
       },
       backgroundSize: {
