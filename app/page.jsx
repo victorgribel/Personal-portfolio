@@ -11,12 +11,11 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Full-stack Developer</span>
-            <h1 className="h1 mt-6">
+            <h1 className="h1 mt-5">
               Olá, Eu sou <br /> <span>Victor Gribel</span>
             </h1>
             <p className="max-w-[500px] mt-9 text-white/80">
-              Sou um desenvolvedor Full Stack tenho 25 anos e com uma experiência em JavaScript (ES6) e PostgreSQL, juntamente com habilidades comprovadas em integração de sistemas via APIs e construção de APIs RESTful usando TypeORM, estou preparado para enfrentar qualquer desafio que a programação possa oferecer.
-            </p>
+            Desenvolvimento full stack com foco e entusiasmo na construção de APIs e segurança de dados            </p>
             <div className="flex flex-col xl:flex-row items-center mt-5 gap-10">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                 <span>Download CV</span>

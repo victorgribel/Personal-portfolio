@@ -13,31 +13,31 @@ import WorkSlidersBtns from "@/components/WorkSlidersBtns";
 const projects = [
   {
     num: '01',
-    category: 'front-end',
-    title: 'Project 1',
-    description: '',
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "javascript" }],
-    image: '/assets/NuKenzie.png',
+    category: 'Front-end',
+    title: 'Portfolio',
+    description: 'Projeto pessoal dedicado a mostrar meu trabalho utilizando frameworks e linguagens atualizadas, com animações implementadas através do Framer Motion.',
+    stack: [{ name: "Next.js" }, { name: "FramerMotion" }, { name: "TaillwindCSS" }, { name: "Typescript" }],
+    image: '/assets/portfolio.png',
     live: "",
     github: "",
   },
   {
     num: '02',
-    category: 'front-end',
-    title: 'Project 2',
-    description: '',
+    category: 'Front-end',
+    title: 'NuKenzie',
+    description: 'Projeto NuKenzie tem como objetivo oferecer uma maneira simples e eficaz de gerenciar suas finanças pessoais',
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "javascript" }],
-    image: '/',
-    live: "",
-    github: "",
+    image: '/assets/NuKenzie.png',
+    live: "https://nu-kenzie-zeta-sage.vercel.app/",
+    github: "https://github.com/victorgribel/Control-finance-NuKenzie",
   },
   {
     num: '03',
-    category: 'front-end',
-    title: 'Project 3',
-    description: '',
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "javascript" }],
-    image: '/',
+    category: 'Front-end',
+    title: 'KenzieHub.',
+    description: 'Projeto que inclui funcionalidades de login e registro de usuário, com página de acesso autenticado.',
+    stack: [{ name: "Javascript" }, { name: "sass" }, { name: "react" }],
+    image: '/assets/KenzieHub.png',
     live: "",
     github: "",
   }
@@ -65,7 +65,9 @@ const Projetos = () => {
               <div className="text-8xl font-extrabold text-outline text-transparent">
                 {project.num}
               </div>
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category}</h2>
+              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.title}</h2>
+              <p className="text-white/70">{project.category}</p>
+
               <p className="text-white/60">{project.description}</p>
               <ul className="flex gap-4">
                 {project.stack.map((item,index) => {
@@ -105,15 +107,15 @@ const Projetos = () => {
               </div>
             </div>
           </div>
-          <div className="w-full xl:w-[50%]">
-            <Swiper spaceBetween={30} slidesPerView={1} className="xl:h-[520px] mb-12" onSlideChange={handleSlideChange}>
+          <div className="w-full xl:w-[50%]  ">
+            <Swiper spaceBetween={30} slidesPerView={1} className="xl:h-[360px] mb-12 rounded-[8px] " onSlideChange={handleSlideChange}>
               {projects.map((project,index) =>{
                 return <SwiperSlide key={index} className="w-full">
-                  <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
-                    <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
-                    <div className="relative w-full h-full">
-                      <Image src={project.image} fill className="object-cover"></Image>
-                    </div>
+                  <div className="h-[300px] relative group flex justify-center items-center bg-pink-50/20">
+                  <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
+                  <div className="relative w-full h-full roundedL-[12px] overflow-hidden">
+                    <Image src={project.image} layout="fill" objectFit="cover" className="object-cover rounded-[2px]"></Image>
+                  </div>
                   </div>
                   
 

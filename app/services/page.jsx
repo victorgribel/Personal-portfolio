@@ -8,15 +8,15 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: '01',
-    title: "Desenvolvimento Web",
-    description: "Lorem ipsum dolor",
-    href: ""
+    title: "Desenvolvimento Front-end",
+    description: "Criação de aplicações e designs inovadores, utilizando novas tecnologias e garantindo a segurança do cliente.",
+    href: "https://github.com/victorgribel/Control-finance-NuKenzie"
   },
   {
     num: '02',
-    title: "Desenvolvimento de APIs",
-    description: "Lorem ipsum dolor",
-    href: ""
+    title: "Desenvolvimento de Back-end",
+    description: " Criação de APIs com ênfase em segurança e funcionalidades conforme solicitado.",
+    href: "https://github.com/victorgribel/UserManagerTask"
   }, 
 ];
 

@@ -6,7 +6,7 @@ import { SiTypescript, SiPython, SiDjango, SiNextdotjs, SiCsharp, SiPostgresql }
 
 const about = {
   title: "Sobre mim",
-  description: " Sou um desenvolvedor Full Stack tenho 25 anos e com uma experiência em JavaScript (ES6) e PostgreSQL, juntamente com habilidades comprovadas em integração de sistemas via APIs e construção de APIs RESTful usando TypeORM, estou preparado para enfrentar qualquer desafio que a programação possa oferecer.",
+  description: "Sou um desenvolvedor Full Stack de 25 anos com experiência em JavaScript (ES6) e PostgreSQL. Possuo habilidades comprovadas na integração de sistemas via APIs e na construção de APIs RESTful usando TypeORM, o que me prepara para enfrentar qualquer desafio que a programação possa oferecer, Focado em back-end e sempre imerso no mundo da tecnologia, tenho hobby em games e computadores. Atualmente, estou no mundo da programação, criando aplicações e aprendendo novas tecnologias.",
   info: [
     {
       fieldName: "Nome",
@@ -40,7 +40,7 @@ const about = {
 }
 const education ={
   title: "Estudos",
-  description: "Comecei meu curso na Kenzie e continuo aprimorando meus conhecimentos",
+  description: "Iniciei meu curso na Kenzie e continuo aprimorando meus conhecimentos constantemente.",
   items: [
     {
       instituição: "Kenzie Academy Brasil",

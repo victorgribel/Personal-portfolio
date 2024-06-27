@@ -13,7 +13,7 @@ const stats = [
     },
     {
         num: 10,
-        text: "Tecnologias aprendidas"
+        text: "+ Tecnologias aprendidas"
     }
 ]
 const Stats = () => {

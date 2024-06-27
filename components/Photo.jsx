@@ -6,14 +6,14 @@ const Photo = () => {
   return (
     <div className="w-full h-full relative ">
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 6.4, ease: "easeIn" } }}>
-        <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"/>
+        <div className="w-[198px] h-[198px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"/>
           <Image
-            src="/assets/heroimg1.png"
+            src="/assets/heroimg3.png"
             priority
             quality={100}
             fill
             className="object-contain"
-            style={{opacity:0.6}}
+            style={{opacity:0.9}}
           />
         <motion.div>
 
